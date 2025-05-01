@@ -1,0 +1,21 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Dheeraj2002kumar/Node#readme",
+  "bugs": {
+    "url": "https://github.com/Dheeraj2002kumar/Node/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dheeraj2002kumar/Node.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "Hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node Hello.js"
+  }
+}
