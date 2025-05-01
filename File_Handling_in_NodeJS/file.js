@@ -44,4 +44,11 @@ fs.appendFileSync("./test.txt", `\n ${Date.now()} Hey There.`)
 
 // ------------ Delete (unlink file) -----------
 
-fs.unlinkSync("./copy.txt")
+// fs.unlinkSync("./copy.txt")
+
+
+
+
+// ---------- Statistics (you can see file statistics) ---------------
+
+console.log(fs.statSync("./test.txt"));
