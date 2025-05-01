@@ -1,12 +1,21 @@
-function add(a, b){
-    return a + b;
-}
+// we can exports the function
 
-function sub(a, b){
-    return a - b;
-}
+// function add(a, b){
+//     return a + b;
+// }
 
-module.exports = {
-    add,
-    sub,
-};
+// function sub(a, b){
+//     return a - b;
+// }
+
+// module.exports = {
+//     add,
+//     sub,
+// };
+
+
+
+
+exports.add = (a, b) => a + b;
+
+exports.sub = (a, b) => a - b;
