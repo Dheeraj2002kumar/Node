@@ -51,4 +51,11 @@ fs.appendFileSync("./test.txt", `\n ${Date.now()} Hey There.`)
 
 // ---------- Statistics (you can see file statistics) ---------------
 
-console.log(fs.statSync("./test.txt"));
+// console.log(fs.statSync("./test.txt"));
+
+
+
+// ------------ Make directery (mkdir) ---------------
+
+// fs.mkdirSync("my-docss")
+fs.mkdirSync("my-recursive-file/test/a", {recursive: true });
