@@ -14,12 +14,21 @@ const fs = require("fs");
 
 // -------- Non-blocking req.. ---------
 
-console.log("1");
+// console.log("1");
 
 // Blocking request
 fs.readFile("../File_Handling_in_NodeJS/contact.txt", "utf8", (err, result) => {
-    console.log(result);
+    // console.log(result);
 });
 
 
-console.log("2");
+// console.log("2");
+
+
+// -------- check cpu core ---------------
+// Default Thread pool size = 4
+// Max? - My cpu core is 8
+
+const os = require("os")
+
+console.log(os.cpus().length);
